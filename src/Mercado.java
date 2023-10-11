@@ -9,7 +9,7 @@ public class Mercado {
     public Mercado(int cnpj, String nome) {
         this.cnpj = cnpj;
         this.nome = nome;
-        this.estoque = new Produtos[20];//inicializando o estoque
+        this.estoque = new Produtos[50];//inicializando o estoque
     }
 
 
@@ -58,7 +58,5 @@ public class Mercado {
         this.estoque = estoque;
     }
 
-    void cadastraProduto(Produtos produtos, int qntProdutos){
 
-    }
 }
