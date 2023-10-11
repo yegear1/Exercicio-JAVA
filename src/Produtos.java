@@ -21,7 +21,7 @@ public class Produtos {
     }
 
     public static void remQnt(Produtos produto, int qnt) {
-        produto.remQnt(produto.remQnt() + qnt);
+        produto.remQnt(produto.remQnt() - qnt);
     }
 
     public String getNome() {
